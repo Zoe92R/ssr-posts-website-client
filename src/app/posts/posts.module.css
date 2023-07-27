@@ -1,0 +1,17 @@
+.posts_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.posts_title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.posts_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+}
